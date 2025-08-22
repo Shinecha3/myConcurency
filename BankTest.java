@@ -31,7 +31,7 @@ public class BankTest {
             System.out.println(e);
         }
 
-        System.out.println("Real value : " + A.getBalance());
+        System.out.println("Final balance : " + A.getBalance());
         System.out.println("Exeption value : " + ((Num_Depositor - Num_Withdrawer) * Value * Round));
     }
 }
